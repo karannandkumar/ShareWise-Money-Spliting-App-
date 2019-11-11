@@ -1,0 +1,39 @@
+body {margin:0;
+ z-index: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+     z-index: 500;
+}
+
+li {
+    float: left;
+ z-index: 500;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ z-index: 500;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+ z-index: 500;
+}
+
+.active {
+    background-color: #2CA6E1;
+ z-index: 500;
+}
